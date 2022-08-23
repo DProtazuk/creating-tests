@@ -1,0 +1,209 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+
+.div_prepod_container {
+    width: 100%;
+    height: 700px;
+    background-color: aquamarine;
+}
+
+.prepod_header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid red;
+    display: flex;
+}
+
+.prepod_header_text {
+    width: 75%;
+    height: 68px;
+    display: flex;
+}
+
+.prepod_header_text_span {
+    margin: auto;
+    color: red;
+    font-weight: 800;
+}
+
+.prepod_header_but_exit {
+    width: 25%;
+    height: 68px;
+    display: flex;
+}
+
+.prepod_header_but_exit_buts {
+    margin: auto;
+    width: 40%;
+    height: 55px;
+}
+
+.div_prepod_container_mini {
+    width: 100%;
+    height: 630px;
+    display: flex;
+}
+
+.container_menu {
+    width: 15%;
+    height: 630px;
+    border-right: 2px solid red;
+}
+
+.div_menu {
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid red;
+    display: flex;
+    color: red;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;     
+}
+
+.div_menu:active {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.div_menu_span {
+    margin: auto;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.div_action_prepod {
+    width: 85%;
+    height: 630px;
+    display: flex;
+}
+
+.did_action_prepod_mini {
+    width: 99%;
+    margin: auto;
+    height: 620px;
+    border: 2px solid red;
+}
+
+#menu_prepod_1 {
+    display: block;
+}
+
+.menu_prepod_2_header {
+    width: 100%;
+    height: 68px;
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_prepod_2_header_input {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.menu_prepod_2_header_button {
+    height: 80%;
+    margin: auto;
+}
+
+.menu_prepod_2_content {
+    width: 100%;
+    height: 550px;
+    overflow: auto;
+}
+
+.div_create_vopros {
+    width: 95%;
+    height: 100px;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.div_create_vopros_header {
+    width: 100%;
+    height: 48px;
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.menu_prepod_2_header_button2 {
+    height: 80%;
+    margin: auto;
+}
+
+.div_create_vopros_header_span {
+    margin: auto;
+    color: red;
+}
+
+.div_create_vopros_body {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+}
+
+.del_vopros {
+    height: 80%;
+    margin: auto;
+}
+
+.radio_input {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.menu_prepod_1_header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid red;
+    display: flex;
+}
+
+.select_update_test, .btn_redac_test {
+    margin: auto;
+}
+
+.div_redact_name_test {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid red;
+    display: flex;
+}
+
+.action_red_test {
+    width: 100%;
+    height: 546px;
+}
+
+.action_red_test_mini {
+    width: 100%;
+    height: 504px;
+    overflow: auto;
+    background-color: rgb(226, 204, 204);
+}
+
+.input_red_name_test {
+    width: 50%;
+    margin: auto;
+    height: 90%;
+}
+
+.span_red_name_test {
+    margin: auto;
+    color: red;
+    font-weight: 700;
+}
+
+.display_button {
+    display: none;
+}
+

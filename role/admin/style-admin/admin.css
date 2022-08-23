@@ -1,0 +1,235 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+
+
+.action_admin {
+    min-width: 100%;
+    height: 700px;
+    background-color: rgb(136, 230, 99);
+    display: flex;
+}
+
+.action_admin_menu {
+    width: 15%;
+    height: 700px;
+    background-color: rgb(35, 95, 11);
+}
+
+.action_admin_menu_punkt {
+    width: 100%;
+    height: 150px;
+    border: 2px solid red;
+    margin-top: 5px;
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; 
+}
+
+.action_admin_menu_punkt:active {
+    background-color: red;
+    cursor: pointer;
+}
+
+.action_admin_menu_punkt_span {
+    margin: auto;
+}
+
+.admin_menu_exit {
+    flex-direction: column;
+}
+.admin_menu_exit:active {
+    background-color: inherit;
+}
+
+.but_exit {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    font-size: 0.7em !important;
+    border: none;
+}
+
+.but_exit:active {
+    background-color: red;
+    color: white;
+}
+
+.action_admin_content {
+    width: 85%;
+    height: 700px;
+    display: flex;
+}
+
+.div_action_admin {
+    width: 95%;
+    height: 650px;
+    margin: auto;
+    border: 4px solid red;
+    border-radius: 15px;
+    display: none;
+    overflow: auto;
+}
+
+/*div_action_admin_1*/
+
+#div_action_admin_3 {
+    overflow: auto;
+}
+
+.action_prepmet {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
+    height: 350px;
+    border: 3px solid red;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.div_new_predmet {
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 2px solid red;
+    display: flex;
+}
+
+.input_new_predmet {
+    margin: auto;
+    width: 50%;
+}
+
+.button_new_predmet {
+    margin: auto;
+    width: 20%;
+}
+
+.div_select_predmet {
+    width: 90%;
+    margin-left: 5%;
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 15px;
+    overflow: auto;
+
+}
+
+.colom_predmet {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.colom_predmet span, button, input, select {
+    margin: auto;
+}
+
+.div_action_prepod {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 400px;
+    border: 3px solid red;
+    border-radius: 15px;
+}
+
+.div_new_prepod {
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    display: flex;
+}
+
+.div_select_prepod {
+    width: 100%;
+    height: 270px;
+    margin-top: 25px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.div_new_prepod_button {
+    width: 70px !important;
+    font-size: 0.7em !important;
+}
+
+.div_new_prepod_input {
+    width: 120px !important;
+}
+
+.div_prepod_select {
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    display: flex;
+}
+
+.div_prepod_select_span {
+    margin: auto;
+    color:red;
+}
+
+.div_js_redaktor {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.btn_redaktor {
+    margin-left: 1%;
+    margin-bottom: 30px !important;
+}
+
+.div_redak_glaw_img {
+    margin-left: 5%;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 15px;
+    display: flex;
+}
+
+.js_file_input_left {
+    width: 40%;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+}
+
+.js_file_input_right {
+    width: 40%;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+}
+
+.js_file_input_left_img {
+    width: 70%;
+    height: 180px !important;
+    margin: auto;
+}
